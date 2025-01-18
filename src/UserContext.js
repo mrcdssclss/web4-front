@@ -1,6 +1,5 @@
 import React, {createContext, useState, useEffect } from 'react';
 
-// Создаем контекст
 const UserContext = createContext({});
 
 const getInitialState = () => {
