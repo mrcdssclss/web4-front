@@ -1,0 +1,31 @@
+body {
+    background-color: #DEBDBB;
+    color: #2B465E;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #2B465E;
+    color: #DEBDBB;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.custom-button:hover {
+    background-color: #8F4A46;
+}
